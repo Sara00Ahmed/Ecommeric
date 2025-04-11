@@ -1,6 +1,6 @@
 import "./globals.css";
 import Nav  from "../component/nav";
-import MuiThemeProvider from '@/mui-theme-provider';
+// import MuiThemeProvider from '@/mui-theme-provider';
 import React from "react";
 
 // import Loader from "@/component/loader";
@@ -18,7 +18,7 @@ export default function RootLayout({
       <body>
           <Nav  />
 
-          <MuiThemeProvider>{children}</MuiThemeProvider>
+            {children}
           {/* <Loader /> */}
 
       </body>

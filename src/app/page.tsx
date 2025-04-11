@@ -1,11 +1,10 @@
 import Header from "@/component/header";
-import Cart from "./cart/page";
+import CartPage from "./cart/page";
 export default function Home() {
   return (
 <>
   <Header />
-  <Cart />
-
+  <CartPage title="Your Shopping Cart" />
 </>
 
 );
